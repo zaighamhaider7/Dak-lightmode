@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+#modes{
+    height: 4em;
+    width: 8em;
+    border-radius: 45px;
+    border: none;
+    box-shadow: 0px 0px 20px 2px rgba(128, 128, 128, 0.332);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#dark{
+    height: 3em;
+    width: 3em;
+    border-radius: 60%;
+    border: none;
+    background-color: black;
+}
+#light{
+    height: 3em;
+    width: 3em;
+    border-radius: 60%;
+    border: none;
+    background-color: white;   
+}
